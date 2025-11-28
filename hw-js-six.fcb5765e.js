@@ -1,0 +1,2 @@
+let e=document.getElementById("calculate"),t=document.getElementById("num1"),n=document.getElementById("num2"),l=document.getElementById("operation"),d=document.getElementById("result");e.addEventListener("click",()=>{let e=parseFloat(t.value),a=parseFloat(n.value),u=l.value;if(isNaN(e)||isNaN(a)){d.innerText="Результат: введіть обидва числа";return}d.innerText="Результат: "+("add"===u?e+a:"subtract"===u?e-a:"multiply"===u?e*a:"divide"===u?0!==a?e/a:"На нуль ділити не можна":"Невідома операція")});
+//# sourceMappingURL=hw-js-six.fcb5765e.js.map
