@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  color: purple;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}

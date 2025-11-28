@@ -1,0 +1,28 @@
+{
+  "name": "hw-js-six",
+  "version": "1.0.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /hw-js-six/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breoner/hw-js-six.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/breoner/hw-js-six/issues"
+  },
+  "homepage": "https://github.com/breoner/hw-js-six#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.1"
+  }
+}
